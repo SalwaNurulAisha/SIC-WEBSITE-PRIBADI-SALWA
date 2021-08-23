@@ -34,8 +34,6 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 
@@ -67,6 +65,11 @@ section {
 }
 
 .kolom {
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+
+.about {
     margin-top: 140px;
     margin-bottom: 20px;
 }
@@ -169,18 +172,16 @@ p {
 .skill-interest ul {
     display:grid;
     list-style-type:none;
-    margin:0;padding:0;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(4, auto);
 }
 .skill-interest ul li {
-    padding: 2em;
+    padding: 32px;
     color:#ED8E7C;
 }
 .skill-interest li span {
     display:block;
-    font-size:1.4em;
-    margin-bottom:1em;
+    font-size:16px;
+    font-weight: bold;
     color: #cf6752;
 }
 
@@ -207,13 +208,41 @@ p {
 
     section {
         display: block;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     section img {
         display: block;
+        align-items: center;
         max-width: 300px;
         max-height: 250px;
     }
+
+    .kolom {
+        margin-top: 20px;
+        text-align: center;
+        line-height: 2px;
+    }
+    
+    .skill-interest ul p {
+        font-size: 12px;
+    }
+
+    .skill-interest li span {
+        font-size: 12px;
+    }
+
+    .skill-interest ul {
+        display:grid;
+        list-style-type:none;
+        grid-template-columns: repeat(2, 200px);
+    }
+
+    .skill-interest {
+        margin-left:30px;
+        margin-right: 30px;
+    }    
 
     .works-list {
         display: block;
@@ -238,5 +267,14 @@ p {
         align-items: center;
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .my-hobby img {
+        max-width: 300px;
+        max-height: 250px;
+    }
+
+    .my-hobby p {
+        margin-top: 20px;
     }
 }
